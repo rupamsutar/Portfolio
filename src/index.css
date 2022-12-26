@@ -19,3 +19,13 @@ body {
   color: rgb(204, 214, 246);
   font-size: 18px;
 }
+
+
+.section-title h1 {
+  color: #e6f1ff;
+}
+
+.section-title h1 span {
+  font-family: Roboto Mono, sans-serif;
+  color: #ff5e00;
+}

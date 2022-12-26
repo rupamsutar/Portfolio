@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./Introduction.module.css";
 
-const AboutMe = () => {
+const Introduction = () => {
     return (
         <div className={classes.introduction}>
             <h1>
@@ -26,4 +26,4 @@ const AboutMe = () => {
     )
 }
 
-export default AboutMe;
+export default Introduction;

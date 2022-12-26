@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import Introduction from './Components/Introduction/Introduction';
+import AboutMe from './Components/AboutMe/AboutMe';
 
 
 
@@ -13,6 +14,9 @@ function App() {
     </nav>
     <section>
       <Introduction />
+    </section>
+    <section>
+      <AboutMe />
     </section>
     </>
   )
