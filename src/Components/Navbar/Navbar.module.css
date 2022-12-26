@@ -1,4 +1,8 @@
 .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: auto;
-    height: 25px;
+    height: 70px;
+    background-color: aqua;
 }

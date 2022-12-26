@@ -1,8 +1,9 @@
+import React from "react";
 import classes from "./Navbar-content.module.css";
 const NavbarContent = () => {
     return(
         <>
-            <ul>
+            <ul className={classes.navContent}>
                 <li>01. About</li>
                 <li>02. Contact</li>
                 <li>03. Work</li>
