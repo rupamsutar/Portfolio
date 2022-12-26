@@ -7,7 +7,12 @@ import Navbar from './Components/Navbar/Navbar';
 function App() {
   return (
     <>
+    <nav>
       <Navbar />
+    </nav>
+    <section>
+      
+    </section>
     </>
   )
 }
