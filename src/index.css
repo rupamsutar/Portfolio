@@ -17,4 +17,5 @@ shades : lightest :#e6f1ff  #ccd6f6  #a8b2d1  #8892b0
 body {
   background-color: #0a192f;
   color: rgb(204, 214, 246);
+  font-size: 18px;
 }
