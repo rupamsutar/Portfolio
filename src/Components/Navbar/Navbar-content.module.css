@@ -1,4 +1,12 @@
 .navContent{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+
+    width: 750px;
+    list-style: none;
+}
+
+.navNum {
+    color: #ff5e00;
 }

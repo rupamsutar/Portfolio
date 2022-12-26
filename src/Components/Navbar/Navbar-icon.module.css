@@ -4,3 +4,7 @@
     width: 60px;
     stroke: #FFADAD;
 }
+
+.navIcon svg {
+    stroke: #ff5e00;
+}
