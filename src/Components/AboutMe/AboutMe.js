@@ -10,8 +10,8 @@ const AboutMe = () => {
             <div className={classes.info}>
 
             </div>
-            <div className={image}>
-                
+            <div className={classes.image}>
+
             </div>
         </div>    )
 }
