@@ -1,6 +1,5 @@
 import React from "react";
 import classes from "./AboutMe.module.css";
-import ProfileImage from "../../Assets/ProfileImg.jpg";
 
 const AboutMe = () => {
 
@@ -10,7 +9,7 @@ const AboutMe = () => {
             <h1><span>01.</span> About Me</h1>
             <div className={classes.info}>
                 <div className={classes.infoData}>
-                    <p>HELLO WORLD!</p>
+                    <p><span>HELLO WORLD!</span></p>
                     <p>
                         My name is Rupam. I love developing things that live on the web. 
                         I started developing the web back in 2021 when decided to transition into Tech. 
@@ -19,7 +18,8 @@ const AboutMe = () => {
                     </p>
                     <p>
                         Jumping into the present, I have developed various applications and clones which states 
-                        my ability to work with HTML5, CSS and Javascript. My main focus these days is mastering ReactJS 
+                        my ability to work with <span>HTML5</span>, <span>CSS </span>and <span>Javascript</span>. 
+                        My main focus these days is mastering <span>ReactJS </span> 
                         and develop accessible, human-centered & inclusive products.
                     </p>
                     <p>
@@ -28,8 +28,8 @@ const AboutMe = () => {
                 </div>
                 <div className={classes.imageSection}>
                     <div className={classes.imageColor}></div>
-                    <div className={classes.image}></div>
                     <div className={classes.border}></div>
+                    <div className={classes.image}></div>
                 </div>
             </div>            
             <ul className={classes.topics}>
