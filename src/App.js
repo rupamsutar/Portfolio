@@ -8,16 +8,10 @@ import AboutMe from './Components/AboutMe/AboutMe';
 
 function App() {
   return (
-    <>
-    <nav>
-      <Navbar />
-    </nav>
-    <section>
-      <Introduction />
-    </section>
-    <section>
-      <AboutMe />
-    </section>
+    <>    
+      <Navbar />    
+      <Introduction />   
+      <AboutMe />    
     </>
   )
 }
