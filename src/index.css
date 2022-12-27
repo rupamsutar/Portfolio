@@ -21,13 +21,3 @@ body {
   font-family: Roboto Slab, sans-serif;
 }
 
-
-.section-title h1 {
-  color: #e6f1ff;
-  margin-bottom: 50px;
-}
-
-.section-title h1 span {
-  font-family: Roboto Mono, sans-serif;
-  color: #ff5e00;
-}

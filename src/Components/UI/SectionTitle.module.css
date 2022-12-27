@@ -1,0 +1,11 @@
+.h1 {
+    color: #e6f1ff;
+    margin-bottom: 50px;
+}
+
+.h1 span {
+    font-weight:400;
+    font-size: 23px;
+    font-family: Roboto Mono, sans-serif;
+    color: #ff5e00;
+}

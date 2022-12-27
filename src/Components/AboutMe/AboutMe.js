@@ -1,13 +1,14 @@
 import React from "react";
 import classes from "./AboutMe.module.css";
+import SectionTitle from "../UI/SectionTitle";
 
 const AboutMe = () => {
 
-    const sectionClassName = `section-title ${classes.section}`
+    
     return(
-        <div className={sectionClassName}>
-            <h1><span>01.</span> About Me</h1>
-            <div className={classes.info}>
+        <div className={classes.section}>
+            <SectionTitle title="About Me" sectionNumber="01" />
+            <div className={classes.info}>                
                 <div className={classes.infoData}>
                     <p><span>HELLO WORLD!</span></p>
                     <p>
