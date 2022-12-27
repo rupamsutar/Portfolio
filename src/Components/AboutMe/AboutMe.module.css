@@ -1,4 +1,83 @@
-.profileImage {
-    height: 250px;
-    width: 240px;
+.section{
+    display: flex;
+    flex-direction: column;
+    max-width: 850px;
+    margin: 200px auto;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.infoData p {
+    margin-bottom: 20px;
+    line-height: 1.8;
+    width: 480px;
+
+}
+
+.imageSection {
+    height: 280px;
+    width: 268px;
+    position: relative;
+}
+
+
+
+.imageColor {
+    height: 280px;
+    width: 268px;
+    background-color: #ff5e00;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    transition: all 1s;
+}
+.imageColor:hover {
+    opacity: 0;
+}
+
+.image {
+    height: 280px;
+    width: 268px;
+    background-image:url("../../Assets/ProfileImg.jpg");
+    background-size: cover;
+    background-position: top;
+    border-radius: 3px;
+}
+
+.border {
+    height: 280px;
+    width: 268px;
+    border: 2px solid #ff5e00;
+    border-radius: 3px;
+    position: absolute;
+    top:30px;
+    left: 30px;
+    z-index: -1;
+}
+
+.border:hover {
+    transform: translate(-10px, -10px);
+}
+
+.topics {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.topics li {
+    color: #8892b0;
+    list-style: none;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+}
+
+.topics li::before {
+    content: "▹";
+    color: #ff5e00;
 }

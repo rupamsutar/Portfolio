@@ -18,11 +18,13 @@ body {
   background-color: #0a192f;
   color: rgb(204, 214, 246);
   font-size: 18px;
+  font-family: Roboto Slab, sans-serif;
 }
 
 
 .section-title h1 {
   color: #e6f1ff;
+  margin-bottom: 50px;
 }
 
 .section-title h1 span {
