@@ -27,10 +27,20 @@ const AboutMe = () => {
                         Here are few technologies I have been working with :
                     </p>
                 </div>
+
                 <div className={classes.imageSection}>
+                    <div className={classes.image}></div>
+                    <div className={classes.imageColor}></div>
+                </div>
+
+
+                {/* <div className={classes.imageSection}>
                     <div className={classes.imageColor}></div>
                     <div className={classes.border}></div>
                     <div className={classes.image}></div>
+                </div> */}
+                <div>
+                    
                 </div>
             </div>            
             <ul className={classes.topics}>
