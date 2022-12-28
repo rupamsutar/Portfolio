@@ -11,18 +11,27 @@
     font-size: 18px;
     margin: 0 0 20px 4px;
     color: #ff5e00;
+
+    animation: moveFromBottom 0.2s ease-out 0.7s;
+    animation-fill-mode: backwards;
 }
 
 .introduction h2 {
     font-weight: 600;
     color:#e6f1ff;
     font-size: 80px;
+
+    animation: moveFromBottom 0.2s ease-out 0.8s;
+    animation-fill-mode: backwards;
 }
 
 .introduction h3 {
     margin: 10px 0 15px 0 ;
     font-size: 60px;
     color: #8892b0;
+
+    animation: moveFromBottom 0.2s ease-out 0.9s;
+    animation-fill-mode: backwards;
 
 }
 
@@ -32,6 +41,9 @@
     max-width: 700px;
     color: #8892b0;
     font-size: 17px;
+
+    animation: moveFromBottom 0.2s ease-out 1s;
+    animation-fill-mode: backwards;
 }
 
 .check:link,
@@ -47,4 +59,20 @@
     border: 2px solid #ff5e00;
     border-radius: 3px;
     margin-top: 50px;
+
+    animation: moveFromBottom 0.2s ease-out 1.1s;
+    animation-fill-mode: backwards;
+}
+
+
+@keyframes moveFromBottom {
+    0% {
+        transform: translateY(30px);
+        opacity: 0;
+    }    
+
+    100% {
+        transform: translate(0,0);
+        opacity: 1;
+    }
 }
