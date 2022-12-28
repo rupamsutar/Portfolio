@@ -3,8 +3,22 @@
     height: 60px;
     width: 60px;
     stroke: #FFADAD;
+
+    animation: moveInBottom 0.3s ease-out;
 }
 
 .navIcon svg {
     stroke: #ff5e00;
+}
+
+@keyframes moveInBottom {
+    0% {
+        transform: translateY(-60px);
+        opacity: 0;
+    }    
+
+    100% {
+        transform: translate(0,0);
+        opacity: 1;
+    }
 }
