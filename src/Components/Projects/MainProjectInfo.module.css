@@ -1,4 +1,35 @@
+.mainProjectInfo {
+    position: relative;
+    text-align: right;
+}
+
+/* IMAGE SECTION */
+.image {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    z-index: -1;
+}
 .image img {
     width: 600px;
     height: 300px;
+}
+
+
+/* CONTENT SECTION */
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content p {
+    color: #ff5e00;
+    font-family: Roboto Mono, sans-serif;
+}
+
+.content .projectDescription p {
+    color: #a8b2d1;
+    font-family: Roboto Slab, sans-serif;
 }
