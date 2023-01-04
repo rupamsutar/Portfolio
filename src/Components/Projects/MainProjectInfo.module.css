@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    padding-bottom: 100px;
 }
 
 /* IMAGE SECTION */
@@ -30,20 +31,43 @@
     font-size: 13px;
 }
 
+.content__heading {
+    margin: 0 0 20px;
+}
+.content__heading h3 {
+    color: #e6f1ff;
+    font-size: 28px;
+}
+
+.content__description {
+    background-color: #112240;
+    padding: 16px 32px;
+    width: 450px;
+    border-radius: 6px;
+
+    text-align: right;
+}
+.content__description p {    
+    line-height: 1.6;
+    font-size: 14px;
+}
 
 
+.content__list {
 
+}
+.content__list ul {
+    display: flex;
+}
 
-
-
+.content__links ul {
+    display: flex;
+}
 /* 
 
 .content h3 {
-    display: inline-block;
 
-    color: #e6f1ff;
-    font-size: 28px;
-    margin: 0 0 20px;
+    
 }
 
 .content .projectDescription p {
