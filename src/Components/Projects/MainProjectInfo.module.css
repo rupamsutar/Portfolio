@@ -1,6 +1,9 @@
 .mainProjectInfo {
     position: relative;
-    text-align: right;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 /* IMAGE SECTION */
@@ -18,18 +21,35 @@
 
 
 /* CONTENT SECTION */
-
-.content {
-    display: flex;
-    flex-direction: column;
+.content__intro {
+    margin: 10px 0;
 }
-
-.content p {
+.content__intro p {
     color: #ff5e00;
     font-family: Roboto Mono, sans-serif;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+/* 
+
+.content h3 {
+    display: inline-block;
+
+    color: #e6f1ff;
+    font-size: 28px;
+    margin: 0 0 20px;
 }
 
 .content .projectDescription p {
     color: #a8b2d1;
     font-family: Roboto Slab, sans-serif;
+    font-size: 18px;
 }
+
+*/
