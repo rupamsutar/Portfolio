@@ -25,6 +25,10 @@ ul {
   list-style: none;
 }
 
+p {
+  font-weight: 500;
+}
+
 .icon-svg {
   height: 32px;
   width: 32px;

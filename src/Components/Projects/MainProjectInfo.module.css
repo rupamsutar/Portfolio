@@ -41,11 +41,11 @@
 
 .content__description {
     background-color: #112240;
-    padding: 16px 32px;
+    padding: 16px 0px 16px 32px;
     width: 450px;
     border-radius: 6px;
-
-    text-align: right;
+    color: #a8b2d1;
+    text-align: center;
 }
 .content__description p {    
     line-height: 1.6;
@@ -69,6 +69,7 @@
 
 .content__links ul {
     display: flex;
+    gap: 32px;
 }
 /* 
 
