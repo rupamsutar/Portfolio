@@ -16,7 +16,7 @@
     z-index: -1;
 }
 .image img {
-    width: 600px;
+    width: 500px;
     height: 300px;
 }
 
@@ -54,10 +54,17 @@
 
 
 .content__list {
-
+    padding: 16px 0;
+    font-family: Roboto Mono, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
 }
 .content__list ul {
+    color: #8892b0;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
 }
 
 .content__links ul {

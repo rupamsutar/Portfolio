@@ -25,3 +25,7 @@ ul {
   list-style: none;
 }
 
+.icon-svg {
+  height: 32px;
+  width: 32px;
+}
