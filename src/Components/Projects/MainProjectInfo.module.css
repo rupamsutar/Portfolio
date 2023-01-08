@@ -102,6 +102,13 @@
     gap: 25px;
 }
 
+.content__list ul li {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 3px;
+    background-color: #112240;
+}
+
 .content__links ul {
     display: flex;
     gap: 18px;
@@ -118,18 +125,3 @@
     stroke: #ff5e00; 
     transform: translate(0, -1px);
 }
-
-/* 
-
-.content h3 {
-
-    
-}
-
-.content .projectDescription p {
-    color: #a8b2d1;
-    font-family: Roboto Slab, sans-serif;
-    font-size: 18px;
-}
-
-*/
