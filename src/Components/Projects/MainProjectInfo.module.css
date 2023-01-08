@@ -69,7 +69,9 @@
 
 .content__links ul {
     display: flex;
-    gap: 32px;
+    gap: 18px;
+    align-items: center;
+    justify-content: space-between;
 }
 /* 
 
