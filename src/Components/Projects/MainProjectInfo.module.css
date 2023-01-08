@@ -64,6 +64,10 @@
 .content__heading h3 {
     color: #e6f1ff;
     font-size: 28px;
+    transition: all 0.3s;
+}
+.content__heading h3:hover {
+    color: #ff5e00;
 }
 
 .content__description {
@@ -100,6 +104,15 @@
     align-items: center;
     justify-content: space-between;
 }
+
+.svg-icon {
+    stroke: #e6f1ff; 
+    transition: all 0.3s;
+}
+.svg-icon:hover {
+    stroke: #ff5e00; 
+}
+
 /* 
 
 .content h3 {
