@@ -6,17 +6,19 @@ const MainProjectInfo = () => {
     return (
 
         <div className={classes.mainProjectInfo}>
-            <div className={classes.image}>
-                {/* <img src={MyYuMeals} alt="Project information" /> */}
-            </div>
-            <div className={classes["image_hover_effect"]}>
-                <p> </p>
-            </div>
+            <a href="https://github.com/rupamsutar/MyZomato">
+                <div className={classes.image} />       
+                <div className={classes["image_hover_effect"]}>
+                    <p> </p>
+                </div>
+            </a>
             <div className={classes['content__intro']}>
                 <p>Featured Project</p>
             </div>
             <div className={classes['content__heading']}>
-                <h3>MyYuMeals</h3>
+                <a href="https://github.com/rupamsutar/MyZomato">
+                    <h3>MyYuMeals</h3>
+                </a>
             </div>
             <div className={classes['content__description']}>
                 <p>
@@ -42,9 +44,7 @@ const MainProjectInfo = () => {
                                 xmlns="http://www.w3.org/2000/svg" 
                                 height="24"
                                 width="24"
-                                viewBox="0 0 24 24" 
-
-                                stroke="#e6f1ff" 
+                                viewBox="0 0 24 24"
                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                                 className={classes["svg-icon"]} 
                                 >                            

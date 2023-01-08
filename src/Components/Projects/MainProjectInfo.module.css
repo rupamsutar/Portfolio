@@ -61,7 +61,11 @@
 .content__heading {
     margin: 0 0 20px;
 }
-.content__heading h3 {
+
+.content__heading a {
+    text-decoration: none;
+}
+.content__heading a h3 {
     color: #e6f1ff;
     font-size: 28px;
     transition: all 0.3s;
@@ -106,11 +110,12 @@
 }
 
 .svg-icon {
-    stroke: #e6f1ff; 
+    stroke: #8892b0; 
     transition: all 0.3s;
 }
 .svg-icon:hover {
     stroke: #ff5e00; 
+    transform: translate(0, -1px);
 }
 
 /* 
