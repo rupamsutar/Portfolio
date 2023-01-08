@@ -2,9 +2,13 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 28px;
 
-    width: 750px;
     list-style: none;
+}
+
+.navContent li {
+    font-size: 14px;
 }
 
 .navNum {
