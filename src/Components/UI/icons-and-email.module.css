@@ -12,7 +12,7 @@
     gap:18px;
 
     position: fixed;
-    top: 420px;
+    bottom: -80px;
     left: 60px;
 }
 
@@ -39,7 +39,7 @@
     gap: 125px;
 
     position: fixed;
-    top: 500px;
+    bottom: -120px;
     right: 70px;
     z-index: 3;
     width: 00px;
@@ -54,12 +54,17 @@
     transform: rotate(90deg);
     
     transition: all 0.3s;
+
 }
 .email:hover {
     color: #ff5e00;
 }
 
-.email-effect {
+.email-effect a {
+    text-decoration: none;
+}
+
+.email-effect{
     transition: all 0.3s;
 }
 
