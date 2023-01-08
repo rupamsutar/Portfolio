@@ -1,0 +1,49 @@
+.mainBox {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #112240;
+    padding: 32px;
+
+    border-radius: 6px;
+}
+
+.mainBox__one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon_folder, .icon_link {
+    stroke-width: 1.5px;
+}
+
+.icon_folder {
+    stroke: #ff5e00;
+    height: 38px;
+    width: 38px;
+}
+.icon_link {
+    stroke: #e6f1ff;
+    height: 24px;
+    width: 24px;
+}
+
+.mainBox__two {
+    font-size: 24px;
+    font-weight: 600;    
+}
+
+.mainBox__three {
+    color: #a8b2d1;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.mainBox__four {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
