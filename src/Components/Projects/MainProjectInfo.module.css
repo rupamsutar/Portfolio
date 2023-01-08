@@ -1,5 +1,6 @@
 .mainProjectInfo {
     position: relative;
+    z-index: 1;
 
     display: flex;
     flex-direction: column;
@@ -8,16 +9,42 @@
 }
 
 /* IMAGE SECTION */
+
+.image, .image_hover_effect {
+    border-radius: 6px;
+}
+
 .image {
+    background-image:url("../../Assets/MyYuMeals.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 500px;
+    height: 300px;
+
     position: absolute;
     top: 0;
     left: 0;
-
     z-index: -1;
+
+
 }
-.image img {
-    width: 500px;
+
+.image_hover_effect {
+    background-color: #ff5e00;
+
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
     height: 300px;
+    width: 500px;
+
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+
+.image_hover_effect:hover {
+    opacity: 0;
 }
 
 
@@ -60,7 +87,7 @@
     font-weight: 400;
 }
 .content__list ul {
-    color: #8892b0;
+    color: #ff5e00;
     display: flex;
     align-items: center;
     justify-content: space-between;

@@ -9,7 +9,10 @@ const MainProjectInfo = () => {
 
         <div className={classes.mainProjectInfo}>
             <div className={classes.image}>
-                <img src={MyYuMeals} alt="Project information" />
+                {/* <img src={MyYuMeals} alt="Project information" /> */}
+            </div>
+            <div className={classes["image_hover_effect"]}>
+                <p> </p>
             </div>
             <div className={classes['content__intro']}>
                 <p>Featured Project</p>
