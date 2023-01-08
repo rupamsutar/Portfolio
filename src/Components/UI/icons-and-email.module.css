@@ -1,0 +1,51 @@
+.icons-fixed, .email-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons-fixed {    
+    justify-content: center;
+    gap:18px;
+
+    position: fixed;
+    top: 450px;
+    left: 60px;
+}
+
+.svg-icon {
+    height: 20px;
+    width: 20px;
+    transition: all 0.3s;
+}
+
+.svg-icon:hover {
+    stroke: #ff5e00;
+    transform: translateY(-6px);
+}
+
+.fake-div {
+    width:-1px;
+    height:150px;
+    border-right: 3px solid #e6f1ff;
+}
+
+.email-link {
+    justify-content: space-around;
+    gap: 125px;
+
+    position: fixed;
+    top: 500px;
+    right: 70px;
+    z-index: 3;
+    width: 00px;
+}
+
+.email {
+    color: #e6f1ff;
+    font-family: Roboto Mono, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    transform: rotate(90deg);    
+}

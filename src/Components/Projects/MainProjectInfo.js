@@ -1,7 +1,5 @@
 import React from "react";
 import classes from './MainProjectInfo.module.css';
-import MyYuMeals from "../../Assets/MyYuMeals.jpg";
-// import GithubIcon from "../../Assets/Icons/Github.png"
 
 const MainProjectInfo = () => {
 
