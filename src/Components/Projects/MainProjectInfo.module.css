@@ -4,8 +4,7 @@
 
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    padding-bottom: 100px;
+    padding-bottom: 160px;
 }
 
 /* IMAGE SECTION */
@@ -14,8 +13,7 @@
     border-radius: 6px;
 }
 
-.image {
-    
+.image {    
     background-size: cover;
     background-position: center;
     width: 500px;
@@ -23,10 +21,7 @@
 
     position: absolute;
     top: 0;
-    left: 0;
     z-index: -1;
-
-
 }
 
 .image_hover_effect {
@@ -35,7 +30,6 @@
     position: absolute;
     z-index: -1;
     top: 0;
-    left: 0;
     height: 300px;
     width: 500px;
 
@@ -76,7 +70,6 @@
 
 .content__description {
     background-color: #112240;
-    padding: 16px 0px 16px 32px;
     width: 450px;
     border-radius: 6px;
     color: #a8b2d1;

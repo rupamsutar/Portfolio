@@ -3,13 +3,34 @@ import classes from './MainProjectInfo.module.css';
 
 const MainProjectInfo = (props) => {
 
+    let imageStyle = {backgroundImage: `url(${props.photoUrl})`,}
+    let mainProjectInfoStyle = {};
+    let imageHoverEffect = {};
+    let contentDescription = {};
+
+
+    if (props.projectNo%2 === 1) {
+        imageStyle.right = 0;
+        mainProjectInfoStyle.alignItems = 'flex-start';
+        imageHoverEffect.right = 0;
+        contentDescription.padding = "16px 32px 16px 0px";
+    } else {
+        imageStyle.left = 0;
+        mainProjectInfoStyle.alignItems = "flex-end";
+        imageHoverEffect.left=0;
+        contentDescription.padding = "16px 0px 16px 32px";
+    }
+
+
+
     return (
 
-        <div className={classes.mainProjectInfo}>
+        <div style={mainProjectInfoStyle} className={classes.mainProjectInfo}>
             <a href={props.projectLink} target="_blank" rel="noreferrer">
-                <div style={{backgroundImage:`url(${props.photoUrl})`}} className={classes.image}>
+                <div style={imageStyle}                    
+                     className={classes.image}>
                 </div>       
-                <div className={classes["image_hover_effect"]}>
+                <div style={imageHoverEffect} className={classes["image_hover_effect"]}>
                     <p></p>
                 </div>
             </a>
@@ -21,7 +42,7 @@ const MainProjectInfo = (props) => {
                     <h3>{props.title}</h3>
                 </a>
             </div>
-            <div className={classes['content__description']}>
+            <div style={contentDescription} className={classes['content__description']}>
                 <p>
                     {props.description}
                 </p>

@@ -52,7 +52,7 @@ const Projects = [
         githubLink : "https://github.com/rupamsutar/Natours",
         photoUrl: Natours,
         title: "Nature Tourists",
-        description: "Developing this site I have advanced CSS tools such as SASS. I've Tried decorating the site with all the beautiful animations possible. The advanced resposive code makes this site soecial",
+        description: "Developing this site, I have used advanced CSS tools such as SASS. I've Tried decorating the site with all the beautiful animations possible. The advanced resposive code makes this site soecial",
         skills: ["Keyframes", "transition", "clip-paths", "Responsive-site"]
     }
 ]
