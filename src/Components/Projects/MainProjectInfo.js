@@ -1,51 +1,48 @@
 import React from "react";
 import classes from './MainProjectInfo.module.css';
 
-const MainProjectInfo = () => {
+const MainProjectInfo = (props) => {
 
     return (
 
         <div className={classes.mainProjectInfo}>
-            <a href="https://github.com/rupamsutar/MyZomato">
-                <div className={classes.image} />       
+            <a href={props.projectLink} target="_blank" rel="noreferrer">
+                <div style={{backgroundImage:`url(${props.photoUrl})`}} className={classes.image}>
+                </div>       
                 <div className={classes["image_hover_effect"]}>
-                    <p> </p>
+                    <p></p>
                 </div>
             </a>
             <div className={classes['content__intro']}>
                 <p>Featured Project</p>
             </div>
             <div className={classes['content__heading']}>
-                <a href="https://github.com/rupamsutar/MyZomato">
-                    <h3>MyYuMeals</h3>
+                <a href={props.projectLink} target="_blank" rel="noreferrer">
+                    <h3>{props.title}</h3>
                 </a>
             </div>
             <div className={classes['content__description']}>
                 <p>
-                    Here I've tried to develop a food order app which gets inspired from online 
-                    food delivery services like Swiggy and Zomato in India. I have tried to use many
-                    react concepts like hooks and api context to complete the app. Currently I am 
-                    trying to add a bit of backend to it !
+                    {props.description}
                 </p>
             </div>
             <div className={classes['content__list']}>
                 <ul>
-                    <li>React</li>
-                    <li>React-Hooks</li>
-                    <li>Context-API</li>
-                    <li>Reducer</li>
+                    {props.skills.map((skill) => (
+                        <li key={Math.random()}>{skill}</li>
+                    ))}
                 </ul>
             </div>
             <div className={classes['content__links']}>
                 <ul>
                     <li>
-                        <a href="https://github.com/rupamsutar/MyZomato">
+                        <a href={props.githubLink} target="_blank" rel="noreferrer">
                             <svg 
                                 xmlns="http://www.w3.org/2000/svg" 
                                 height="24"
                                 width="24"
                                 viewBox="0 0 24 24"
-                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                // strokewidth="2" stroke-linecap="round" stroke-linejoin="round"
                                 className={classes["svg-icon"]} 
                                 >                            
                                     <path 
@@ -55,15 +52,15 @@ const MainProjectInfo = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="https://rupamsutar.github.io/MyZomato/">
+                        <a href={props.projectLink} target="_blank" rel="noreferrer">
                             <svg 
                                 xmlns="http://www.w3.org/2000/svg"
                                 height="26"
                                 width="26"
                                 viewBox="0 0 24 24"                            
-                                stroke-width="2" 
-                                stroke-linecap="round" 
-                                stroke-linejoin="round"
+                                // stroke-width="2" 
+                                // stroke-linecap="round" 
+                                // stroke-linejoin="round"
                                 className={classes["svg-icon"]} 
                                 >
                                     <path 
