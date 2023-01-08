@@ -68,8 +68,10 @@ const Icons_and_email = () => {
                     </li>
                 </ul>
             </div>
-            <div className={classes["email-link"]}>                
-                <p className={classes["email"]}>rupamsutar281998@gmail.com</p>
+            <div className={classes["email-link"]}> 
+                <div className={classes["email-effect"]}>               
+                    <p className={classes["email"]}>rupamsutar281998@gmail.com</p>
+                </div>
                 <div className={classes["fake-div"]}><p></p></div>             
             </div>
         </>

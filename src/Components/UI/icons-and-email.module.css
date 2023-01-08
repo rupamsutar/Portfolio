@@ -1,7 +1,12 @@
+
+
 .icons-fixed, .email-link {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    animation: appear 0.5s ease-out 1.5s;
+    animation-fill-mode: backwards;
 }
 
 .icons-fixed {    
@@ -9,7 +14,7 @@
     gap:18px;
 
     position: fixed;
-    top: 450px;
+    top: 420px;
     left: 60px;
 }
 
@@ -17,6 +22,7 @@
     height: 20px;
     width: 20px;
     transition: all 0.3s;
+    stroke: #8892b0;
 }
 
 .svg-icon:hover {
@@ -26,8 +32,8 @@
 
 .fake-div {
     width:-1px;
-    height:150px;
-    border-right: 3px solid #e6f1ff;
+    height:250px;
+    border-right: 3px solid #8892b0;
 }
 
 .email-link {
@@ -42,10 +48,33 @@
 }
 
 .email {
-    color: #e6f1ff;
+    color: #8892b0;
     font-family: Roboto Mono, sans-serif;
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 1px;
-    transform: rotate(90deg);    
+    transform: rotate(90deg);
+    
+    transition: all 0.3s;
 }
+.email:hover {
+    color: #ff5e00;
+}
+
+.email-effect {
+    transition: all 0.3s;
+}
+
+.email-effect:hover {
+    transform: translate(0, -6px);
+}
+
+@keyframes appear {
+    0% {
+      visibility: hidden;
+    }
+  
+    100% {
+      visibility: visible;
+    }
+  }
