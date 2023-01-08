@@ -6,6 +6,7 @@ import MyYuMeals from "../../Assets/MyYuMeals.jpg";
 import GreatQuotes from "../../Assets/GreatQuotes.jpg";
 import MyFirstReactApp from "../../Assets/MyFirstReactApp.jpg";
 import BeABankist from "../../Assets/BeABankist.jpg";
+import Natours from "../../Assets/Natours.jpg";
 
 const Projects = [
     {
@@ -44,6 +45,15 @@ const Projects = [
         title: "Expense Handler",
         description: "This Expense handler might help you in handling your day to day expenses. Developing this app has helped me master my React fundamentals such as props, contextAPI, hooks etc. Building this was one of the best fun I've ever had!",
         skills: ["React", "React-props", "Hooks", "Managing-States"]
+    },
+    {
+        projectNo: 5,
+        projectLink: "https://rupamsutar.github.io/Natours/",
+        githubLink : "https://github.com/rupamsutar/Natours",
+        photoUrl: Natours,
+        title: "Nature Tourists",
+        description: "Developing this site I have advanced CSS tools such as SASS. I've Tried decorating the site with all the beautiful animations possible. The advanced resposive code makes this site soecial",
+        skills: ["Keyframes", "transition", "clip-paths", "Responsive-site"]
     }
 ]
 
