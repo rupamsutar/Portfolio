@@ -1,11 +1,12 @@
 .mainBox {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
     background-color: #112240;
     padding: 32px;
+    width: fit-content;
 
-    border-radius: 6px;
+    border-radius: 12px;
 }
 
 .mainBox__one {
@@ -14,7 +15,12 @@
     justify-content: space-between;
 }
 
-.icon_folder, .icon_link {
+.svg-links {
+    display: flex;
+    gap: 15px;
+}
+
+.icon_folder, .icon_link, .icon_github {
     stroke-width: 1.5px;
 }
 
@@ -23,10 +29,22 @@
     height: 38px;
     width: 38px;
 }
+
+.icon_github {
+    stroke: #e6f1ff;
+    height: 22px;
+    width: 22px;
+}
+
 .icon_link {
     stroke: #e6f1ff;
     height: 24px;
     width: 24px;
+}
+
+.icon_github:hover, .icon_link:hover {
+    transform: translate(0, -2px);
+    stroke: #ff5e00;
 }
 
 .mainBox__two {
@@ -34,16 +52,21 @@
     font-weight: 600;    
 }
 
-.mainBox__three {
+.mainBox__three p {
     color: #a8b2d1;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 16px;
 }
 
 .mainBox__four {
+    color: #ff5e00;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:flex-start;
+    gap: 30px;
 
+    font-family: Roboto Mono, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
 }
 

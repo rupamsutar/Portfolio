@@ -113,6 +113,9 @@
     stroke: #8892b0; 
     transition: all 0.3s;
     stroke-width: 2px;
+
+    height: 24px;
+    width: 24px;
 }
 .svg-icon:hover {
     stroke: #ff5e00; 
