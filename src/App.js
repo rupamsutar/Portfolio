@@ -13,15 +13,17 @@ import Footer from './Components/FooterSection/Footer';
 
 function App() {
   return (
-    <>    
-      <Navbar />    
+    <>
+    <div className='app'>    
+      <Navbar className='navbar'/>    
       <Introduction />   
       <AboutMe />
       <MainProject />
-      <IconsAndEmail />
       <OtherProjects />
       <WhatsNext />
       <Footer />
+    </div>
+      <IconsAndEmail />
     </>
   )
 }
