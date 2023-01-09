@@ -20,7 +20,7 @@ const Introduction = () => {
                 and Human-centered Products.
             </p>
             <div >
-                <a className={classes.check} href="https://rupamsutar.github.io/MyZomato/"> Check out my Work!</a>
+                <a className={classes.check} href="#work"> Check out my Work!</a>
             </div>
         </div>
     )
