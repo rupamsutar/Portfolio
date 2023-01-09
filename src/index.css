@@ -18,7 +18,7 @@ body {
   background-color: #0a192f;
   color: rgb(204, 214, 246);
   font-size: 18px;
-  font-family: Roboto Slab, sans-serif;
+  font-family: 'Roboto Slab', serif;
 }
 
 ul {
@@ -26,7 +26,7 @@ ul {
 }
 
 p {
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .icon-svg {
