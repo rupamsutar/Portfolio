@@ -4,9 +4,18 @@
     gap: 20px;
     background-color: #112240;
     padding: 32px;
-    width: fit-content;
+    width: 320px;
 
     border-radius: 12px;
+    transition: all 0.2s;
+}
+
+.mainBox:hover {
+    transform: translate(0, -6px);    
+}
+
+.mainBox:hover .mainBox__two {
+    color: #ff5e00;
 }
 
 .mainBox__one {
@@ -17,6 +26,7 @@
 
 .svg-links {
     display: flex;
+    align-items: center;
     gap: 15px;
 }
 
@@ -26,20 +36,23 @@
 
 .icon_folder {
     stroke: #ff5e00;
-    height: 38px;
-    width: 38px;
+    height: 40px;
+    width: 40px;
 }
 
 .icon_github {
-    stroke: #e6f1ff;
+    stroke: #8892b0;
     height: 22px;
     width: 22px;
+
+    transition: all 0.3s;
 }
 
 .icon_link {
-    stroke: #e6f1ff;
+    stroke: #8892b0;
     height: 24px;
     width: 24px;
+    transition: all 0.3s;
 }
 
 .icon_github:hover, .icon_link:hover {
@@ -50,6 +63,8 @@
 .mainBox__two {
     font-size: 24px;
     font-weight: 600;    
+
+    transition: all 0.2s;
 }
 
 .mainBox__three p {
