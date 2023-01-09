@@ -7,6 +7,7 @@ import MainProject from './Components/Projects/MainProject';
 import IconsAndEmail from "./Components/UI/icons-and-email";
 import OtherProjects from './Components/Projects/OtherProjects';
 import WhatsNext from "./Components/FooterSection/WhatsNext"
+import Footer from './Components/FooterSection/Footer';
 
 
 
@@ -20,6 +21,7 @@ function App() {
       <IconsAndEmail />
       <OtherProjects />
       <WhatsNext />
+      <Footer />
     </>
   )
 }

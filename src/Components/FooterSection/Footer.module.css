@@ -1,0 +1,14 @@
+.footer {
+    width:750px;
+    text-align: center;
+    margin: 50px auto 30px auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footer p {
+    font-size: 12px;
+    letter-spacing: 1.3px;
+}
