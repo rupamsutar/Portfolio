@@ -3,7 +3,7 @@ import classes from "./WhatsNext.module.css"
 
 const WhatsNext = () => {
     return (
-        <div className={classes['main-section']}>
+        <div id="contact" className={classes['main-section']}>
             <div className={classes['main-section-intro']}>
                 <p>What's Next ?</p>
             </div>

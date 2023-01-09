@@ -14,8 +14,8 @@ import Footer from './Components/FooterSection/Footer';
 function App() {
   return (
     <>
-    <div className='app'>    
-      <Navbar className='navbar'/>    
+    <div>    
+      <Navbar />    
       <Introduction />   
       <AboutMe />
       <MainProject />

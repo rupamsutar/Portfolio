@@ -6,7 +6,7 @@ const AboutMe = () => {
 
     
     return(
-        <div className={classes.section}>
+        <div id="aboutMe" className={classes.section}>
             <SectionTitle title="About Me" sectionNumber="01" />
             <div className={classes.info}>                
                 <div className={classes.infoData}>

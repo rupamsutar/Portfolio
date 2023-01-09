@@ -59,7 +59,7 @@ const Projects = [
 
 const MainProject = () => {
     return(
-        <div className={classes.mainProject}>
+        <div id="work" className={classes.mainProject}>
             <SectionTitle sectionNumber="02" title="Somethings I've built"></SectionTitle>
             {Projects.map((project) => (
                 <MainProjectInfo 
