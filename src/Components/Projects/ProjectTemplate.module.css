@@ -1,12 +1,11 @@
 .mainBox {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 20px;
     background-color: #112240;
     padding: 32px;
-    width: 320px;
-
-    margin: 10px;
+    width: 300px;
 
     border-radius: 12px;
     transition: all 0.2s;
