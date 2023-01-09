@@ -10,3 +10,28 @@
 .otherProjects h2 {
     margin-bottom: 100px;
 }
+
+.project-grid {
+    background-color: #fff;
+    width: 1000px;
+    margin: 50px auto;
+    display: grid;
+    
+
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.one, .two, .three {
+    background-color: blue;
+    height: 250px;
+    width: 200px;
+
+    justify-content: center;
+    align-content: center;
+}
+
+/* .project-grid-container {
+    margin: 50px auto;
+} */

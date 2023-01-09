@@ -9,7 +9,7 @@ const ProjectTemplate = (props) => {
                     <svg 
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 24 24" 
-                        class={classes["icon_folder"]}>
+                        className={classes["icon_folder"]}>
                             <title>Folder</title>
                             <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
                     </svg>
@@ -30,7 +30,7 @@ const ProjectTemplate = (props) => {
                     <svg 
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 24 24"
-                        class={classes["icon_link"]}>
+                        className={classes["icon_link"]}>
                             <title>External Link</title>
                             <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
                             <polyline points="15 3 21 3 21 9"></polyline>
