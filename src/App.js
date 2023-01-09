@@ -6,6 +6,7 @@ import AboutMe from './Components/AboutMe/AboutMe';
 import MainProject from './Components/Projects/MainProject';
 import IconsAndEmail from "./Components/UI/icons-and-email";
 import OtherProjects from './Components/Projects/OtherProjects';
+import WhatsNext from "./Components/FooterSection/WhatsNext"
 
 
 
@@ -18,6 +19,7 @@ function App() {
       <MainProject />
       <IconsAndEmail />
       <OtherProjects />
+      <WhatsNext />
     </>
   )
 }
