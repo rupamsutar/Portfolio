@@ -43,10 +43,22 @@
     animation: moveInBottom 0.3s ease-out 0.4s;
     animation-fill-mode: backwards;
 }
-.navContent li:nth-child(5) {
-    animation: moveInBottom 0.3s ease-out 0.5s;
-    animation-fill-mode: backwards;
-}
+
+/* .navContent li a .resume-button:link {
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Roboto Mono', serif;
+    color: #ff5e00;
+    padding: 16px 32px;
+    border-radius: 10px;
+    border: 2px solid #ff5e00;
+    background-color: #0a192f;
+    margin-top: 20px;
+
+    transition: all 0.2s;
+} */
 
 @keyframes moveInBottom {
     0% {
