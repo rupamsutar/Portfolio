@@ -32,8 +32,8 @@ html {
 }
 
 body {
-  background-color: #0a192f;
-  color: rgb(204, 214, 246);
+  background-color: var(--dark-blue-1);
+  color: var(--text-shade-4);
   font-size: 1.6rem;
   font-family: 'Roboto Slab', serif;
 }

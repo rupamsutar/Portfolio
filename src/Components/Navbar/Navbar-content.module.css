@@ -44,21 +44,33 @@
     animation-fill-mode: backwards;
 }
 
-/* .navContent li a .resume-button:link {
-    font-weight: 400;
-    font-size: 16px;
-    text-decoration: none;
-    display: inline-block;
-    font-family: 'Roboto Mono', serif;
-    color: #ff5e00;
-    padding: 16px 32px;
-    border-radius: 10px;
-    border: 2px solid #ff5e00;
-    background-color: #0a192f;
-    margin-top: 20px;
 
-    transition: all 0.2s;
-} */
+/* Collapsable Navbar content */
+
+.input {
+    display: none;
+}
+
+.checkbox-icon {
+    display: none;
+    height: 3.2rem;
+    width: 3.2rem;
+    stroke: var(--contrast-1);
+    stroke-width: 0.1rem;
+
+}
+
+@media (max-width: 900px) {
+
+    .checkbox-icon {
+        display: inline-block;
+    }
+
+    .navContent{
+        display: none;
+    }
+}
+
 
 @keyframes moveInBottom {
     0% {
