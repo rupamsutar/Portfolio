@@ -7,6 +7,19 @@ shades : lightest :#e6f1ff  #ccd6f6  #a8b2d1  #8892b0
 
 */
 
+:root {
+  --dark-blue-1: #0a192f;
+  --dark-blue-2: #112240;
+  --dark-blue-3: #233554;
+
+  --contrast-1: #ff5e00;
+
+  --text-shade-1: #8892b0;
+  --text-shade-2: #a8b2d1;
+  --text-shade-3: #ccd6f6;
+  --text-shade-4: #e6f1ff;
+}
+
 
 * {
   margin: 0;
@@ -14,10 +27,14 @@ shades : lightest :#e6f1ff  #ccd6f6  #a8b2d1  #8892b0
   box-sizing: border-box;  
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   background-color: #0a192f;
   color: rgb(204, 214, 246);
-  font-size: 18px;
+  font-size: 1.6rem;
   font-family: 'Roboto Slab', serif;
 }
 
@@ -30,8 +47,8 @@ p {
 }
 
 .icon-svg {
-  height: 32px;
-  width: 32px;
+  height: 3.2rem;
+  width: 3.2rem;
 }
 
 

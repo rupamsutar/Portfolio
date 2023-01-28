@@ -1,14 +1,13 @@
 .navIcon {
-    margin: 10px;
-    height: 40px;
-    width: 40px;
-    stroke: #FFADAD;
+    margin: 1rem;
+    height: 4rem;
+    width: 4rem;
 
     animation: moveInBottom 0.3s ease-out;
 }
 
 .navIcon svg {
-    stroke: #ff5e00;
+    stroke: var(--contrast-1);
 }
 
 @keyframes moveInBottom {
