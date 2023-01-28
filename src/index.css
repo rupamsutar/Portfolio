@@ -29,6 +29,7 @@ shades : lightest :#e6f1ff  #ccd6f6  #a8b2d1  #8892b0
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {

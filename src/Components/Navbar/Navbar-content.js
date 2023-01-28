@@ -1,10 +1,18 @@
-import React from "react";
+import React, {useState} from "react";
 import classes from "./Navbar-content.module.css";
 import resume from "../../Assets/resume.pdf"
 const NavbarContent = () => {
+
+    const [isChecked, setIsChecked] = useState(false);
+
+    const checkHandler = () => {
+        setIsChecked(!isChecked);
+        console.log(isChecked)
+    }
+
     return(
         <>
-            <input type="checkbox" id="check" className={classes['input']}></input>
+            <input onChange={checkHandler} checked={isChecked} type="checkbox" id="check" className={classes['input']}></input>
             <label htmlFor="check">
                 <svg 
                     className={classes["checkbox-icon"]}
@@ -15,10 +23,10 @@ const NavbarContent = () => {
                 </svg>
             </label>
             <ul className={classes.navContent}>
-                <li><span className={classes.navNum}>01.</span> <a href="#aboutMe">About</a></li>
-                <li><span className={classes.navNum}>02.</span> <a href="#contact">Contact</a></li>
-                <li><span className={classes.navNum}>03.</span> <a href="#work">Work</a></li>
-                <li><span className={classes.navNum}>04.</span> <a href={resume} target="_blank" rel="noreferrer" className={classes['resume-button']}>Resume</a></li>
+                <li><span className={classes.navNum}>01.</span> <a onClick={checkHandler} href="#aboutMe">About</a></li>
+                <li><span className={classes.navNum}>02.</span> <a onClick={checkHandler} href="#contact">Contact</a></li>
+                <li><span className={classes.navNum}>03.</span> <a onClick={checkHandler} href="#work">Work</a></li>
+                <li><span className={classes.navNum}>04.</span> <a onClick={checkHandler} href={resume} target="_blank" rel="noreferrer" className={classes['resume-button']}>Resume</a></li>
             </ul>
         </>
     )
