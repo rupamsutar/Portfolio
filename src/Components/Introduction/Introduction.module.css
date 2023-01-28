@@ -1,8 +1,6 @@
 .introduction {
     display: flex;
     flex-direction: column;
-    margin: 180px 27.15% 50px 15.09%;
-    max-width: 57.7%;
 }
 
 .introduction h1 {

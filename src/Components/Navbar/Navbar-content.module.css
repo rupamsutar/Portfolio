@@ -58,6 +58,7 @@
     stroke-width: 0.15rem;
 
     position: fixed;
+    z-index: 20;
     top: 2.4rem;
     right: 2.4rem;
 

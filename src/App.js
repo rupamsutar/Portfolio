@@ -8,21 +8,22 @@ import IconsAndEmail from "./Components/UI/icons-and-email";
 import OtherProjects from './Components/Projects/OtherProjects';
 import WhatsNext from "./Components/FooterSection/WhatsNext"
 import Footer from './Components/FooterSection/Footer';
+import "./App.css"
 
 
 
 function App() {
   return (
     <>
-    <div>    
       <Navbar />    
-      <Introduction />   
-      <AboutMe />
-      <MainProject />
-      <OtherProjects />
+      <div className="app">    
+        <Introduction />   
+        <AboutMe />
+        <MainProject />
+        <OtherProjects />
+      </div>
       <WhatsNext />
       <Footer />
-    </div>
       <IconsAndEmail />
     </>
   )
