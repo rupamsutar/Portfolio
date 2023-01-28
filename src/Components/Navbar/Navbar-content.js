@@ -1,13 +1,12 @@
 import React, {useState} from "react";
 import classes from "./Navbar-content.module.css";
-import resume from "../../Assets/resume.pdf"
+import resume from "../../Assets/resume.pdf";
+
+
 const NavbarContent = () => {
-
     const [isChecked, setIsChecked] = useState(false);
-
     const checkHandler = () => {
         setIsChecked(!isChecked);
-        console.log(isChecked)
     }
 
     return(

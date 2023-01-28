@@ -63,8 +63,8 @@
 
     .checkbox-icon {
         position: fixed;
-        top: 5rem;
-        right: 5rem;
+        top: 2.4rem;
+        right: 2.4rem;
         z-index: 20;
         display: inline-block;
     }
