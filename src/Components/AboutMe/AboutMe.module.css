@@ -5,9 +5,15 @@
 
 .info {
     display: flex;
-    justify-content: space-between;
-    gap: 50px;
+    gap: 22%;
 }
+
+@media (max-width:1200px) {
+    .info{
+        flex-direction: column;
+    }
+}
+
 .infoData p {
     margin-bottom: 20px;
     line-height: 1.8;
@@ -25,10 +31,16 @@
 /* Image Section */
 
 .imageSection {
-    height: 280px;
-    width: 268px;
+    height: 28rem;
+    width: 28rem;
     position: relative;
 }
+
+/* @media (max-width:1200px) {
+    .imageSection {
+
+    }
+} */
 
 .image {
     background-image: url('../../Assets/ProfileImg.jpg');

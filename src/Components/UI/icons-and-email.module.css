@@ -82,4 +82,12 @@
     100% {
       visibility: visible;
     }
-  }
+}
+
+@media (max-width: 1300px) {
+    .icon-links,
+    .email-link{
+        display: none;
+    }
+}
+
