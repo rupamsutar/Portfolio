@@ -3,45 +3,51 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    gap: 15px;
+    gap: 1.5rem;
 
-    padding: 32px 64px;
-    max-width: 850px;
-    margin: 200px auto 200px auto;
+    padding: 3.2rem 6.4rem;
+    max-width: 85rem;
+    margin: 20rem auto 20rem auto;
 }
 
 .main-section-intro {
     font-family: Roboto Mono, sans-serif;
-    font-size: 16px;
-    color: #ff5e00;
+    font-size: 1.6rem;
+    color: var(--contrast-1);
 }
 
 .main-section-heading {
-    font-size: 28px;
-    letter-spacing: 0.8px;
+    font-size: 2.8rem;
+    letter-spacing: 0.08rem;
+}
+
+@media (max-width: 740px) {
+    .main-section-heading h1 {
+        text-align: center;
+    }
 }
 
 .main-section-objective p{
     font-family: Roboto Slab,sans-serif;
     font-weight: 400;
-    color: #8892b0;
-    font-size: 16px;
+    color: var(--text-shade-1);
+    font-size: 1.6rem;
     text-align: center;
 }
 
 .main-section-button a:link,
 .main-section-button a:visited {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1.6rem;
     text-decoration: none;
     display: inline-block;
     font-family: 'Roboto Mono', serif;
-    color: #ff5e00;
-    padding: 16px 32px;
-    border-radius: 10px;
-    border: 2px solid #ff5e00;
-    background-color: #0a192f;
-    margin-top: 20px;
+    color: var(--contrast-1);
+    padding: 1.6rem 3.2rem;
+    border-radius: 1rem;
+    border: 0.2rem solid var(--contrast-1);
+    background-color: var(--dark-blue-1);
+    margin-top: 2rem;
 
     transition: all 0.2s;
 }
