@@ -2,6 +2,13 @@
     margin-bottom: 50px;
 }
 
+@media (max-width: 1200px) {
+    .sectionTitle {
+        text-align: center;
+        margin-left: -1rem;
+    }
+}
+
 .h1 {
     color: #e6f1ff;
 }
