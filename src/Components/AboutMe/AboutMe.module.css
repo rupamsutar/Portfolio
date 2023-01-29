@@ -8,22 +8,29 @@
     gap: 22%;
 }
 
-@media (max-width:1200px) {
+@media (max-width:1200px) {    
     .info{
         flex-direction: column;
+        text-align: center;
     }
 }
 
 .infoData p {
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
     line-height: 1.8;
-    width: 480px;
-    color: #a8b2d1;
+    width: 48rem;
+    color: var(--text-shade-2);
 }
 .infoData p span {
     font-family: Roboto Mono, sans-serif;
     font-weight: 600;
-    color: #ff5e00;
+    color: var(--contrast-1);
+}
+
+@media (max-width:1200px) {
+    .infoData {
+        margin: 1rem auto;
+    }
 }
 
 
@@ -36,20 +43,19 @@
     position: relative;
 }
 
-/* @media (max-width:1200px) {
+@media (max-width: 1200px) {
     .imageSection {
-
+        margin: 1rem auto 6rem auto;
     }
-} */
+}
 
 .image {
     background-image: url('../../Assets/ProfileImg.jpg');
     background-size: cover;
-    /* background-color: rgb(255, 94, 0, 0.7); */
-    height: 280px;
-    width: 268px;
+    height: 28rem;
+    width: 26.8rem;
     opacity: 0.6;
-    border-radius: 5px;
+    border-radius: 0.5rem;
 
     position: absolute;
     top: 0;
@@ -66,12 +72,12 @@
 .imageSection::after {
     content: "";
     display: inline-block;
-    height: 280px;
-    width: 260px;
+    height: 28rem;
+    width: 26rem;
 
-    border: 2px solid #ff5e00;
-    border-radius: 5px;
-    transform: translate(20px, 20px);
+    border: 0.2rem solid var(--contrast-1);
+    border-radius: 0.5rem;
+    transform: translate(2rem, 2rem);
 
     position: absolute;
     top: 0;
@@ -82,14 +88,14 @@
 }
 
 .imageSection:hover::after {
-    transform: translate(15px, 15px);
+    transform: translate(1.5rem, 1.5rem);
 }
 
 .imageColor {
-    background-color: rgb(255, 94, 0, 1);
-    height: 280px;
-    width: 268px;
-    border-radius: 5px;
+    background-color: var(--contrast-1);
+    height: 28rem;
+    width: 26.8rem;
+    border-radius: 0.5rem;
 
     position: absolute;
     top: 0;
@@ -109,15 +115,22 @@
     grid-template-columns: auto auto auto;
 }
 
+@media (max-width: 1200px) {
+    .topics {
+        text-align: center;
+        justify-content: centers;
+    }
+}
+
 .topics li {
-    color: #8892b0;
+    color: var(--text-shade-1);
     list-style: none;
-    font-size: 13px;
-    letter-spacing: 1.5px;
-    margin-bottom: 10px;
+    font-size: 1.4rem;
+    letter-spacing: 0.15rem;
+    margin-bottom: 1rem;
 }
 
 .topics li::before {
     content: "▹";
-    color: #ff5e00;
+    color: var(--contrast-1);
 }
