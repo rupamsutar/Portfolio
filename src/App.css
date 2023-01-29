@@ -8,6 +8,6 @@
 
 @media (min-width:1300px) {
     .app {
-        margin: 20rem;
+        margin: 20rem auto;
     }
 }

@@ -2,21 +2,27 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 20px;
+    gap: 2rem;
     background-color: #112240;
-    padding: 32px;
-    width: 300px;
+    padding: 3.2rem;
+    width: 30rem;
 
-    border-radius: 12px;
+    border-radius: 1.2rem;
     transition: all 0.2s;
 }
 
+@media (max-width: 1200) {
+    .mainBox {
+        width: 20rem;
+    }
+}
+
 .mainBox:hover {
-    transform: translate(0, -6px);    
+    transform: translate(0, -0.6rem);    
 }
 
 .mainBox:hover .mainBox__two {
-    color: #ff5e00;
+    color: var(--contrast-1);
 }
 
 .mainBox__one {
@@ -28,61 +34,61 @@
 .svg-links {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 1.5rem;
 }
 
 .icon_folder, .icon_link, .icon_github {
-    stroke-width: 1.5px;
+    stroke-width: 0.15rem;
 }
 
 .icon_folder {
-    stroke: #ff5e00;
-    height: 40px;
-    width: 40px;
+    stroke: var(--contrast-1);
+    height: 4rem;
+    width: 4rem;
 }
 
 .icon_github {
     stroke: #8892b0;
-    height: 22px;
-    width: 22px;
+    height: 2.2rem;
+    width: 2.2rem;
 
     transition: all 0.3s;
 }
 
 .icon_link {
     stroke: #8892b0;
-    height: 24px;
-    width: 24px;
+    height: 2.4rem;
+    width: 2.4rem;
     transition: all 0.3s;
 }
 
 .icon_github:hover, .icon_link:hover {
-    transform: translate(0, -2px);
-    stroke: #ff5e00;
+    transform: translate(0, -0.2rem);
+    stroke: var(--contrast-1);
 }
 
 .mainBox__two {
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 600;    
 
     transition: all 0.2s;
 }
 
 .mainBox__three p {
-    color: #a8b2d1;
+    color: var(--text-shade-2);
     font-weight: 300;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 .mainBox__four {
-    color: #ff5e00;
+    color: var(--contrast-1);
     display: flex;
     align-items: center;
     justify-content:flex-start;
-    gap: 30px;
+    gap: 3rem;
 
     font-family: Roboto Mono, sans-serif;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 400;
 }
 
