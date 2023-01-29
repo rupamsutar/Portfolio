@@ -67,6 +67,7 @@
 @media (max-width: 740px) {
     .introduction p {
         text-align: center;
+        width: 100% !important;
     }
 }
 

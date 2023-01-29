@@ -11,3 +11,8 @@
         margin: 20rem auto;
     }
 }
+@media (max-width:500px) {
+    .app {
+        margin: 10rem 5rem;
+    }
+}

@@ -32,6 +32,12 @@
         margin: 1rem auto;
     }
 }
+@media (max-width:740px) {
+    .infoData p{
+        margin: 1rem auto;
+        width: 100%;
+    }
+}
 
 
 

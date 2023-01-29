@@ -94,6 +94,12 @@
     font-size: 1.4rem;
 }
 
+@media (max-width: 740px) {
+    .content__description {
+        padding: 1.6rem 3.2rem !important;
+    }
+}
+
 
 .content__list {
     padding: 1.6rem 0;
