@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 2rem;
-    background-color: #112240;
+    background-color: var(--dark-blue-2);
     padding: 3.2rem;
     width: 30rem;
 
@@ -48,7 +48,7 @@
 }
 
 .icon_github {
-    stroke: #8892b0;
+    stroke: var(--text-shade-1);
     height: 2.2rem;
     width: 2.2rem;
 
@@ -56,7 +56,7 @@
 }
 
 .icon_link {
-    stroke: #8892b0;
+    stroke: var(--text-shade-1);
     height: 2.4rem;
     width: 2.4rem;
     transition: all 0.3s;
