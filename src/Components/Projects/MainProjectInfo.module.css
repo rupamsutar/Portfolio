@@ -99,6 +99,11 @@
         padding: 1.6rem 3.2rem !important;
     }
 }
+@media (max-width: 550px) {
+    .content__description {
+        width: 100%;
+    }
+}
 
 
 .content__list {

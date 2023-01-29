@@ -8,7 +8,7 @@
 
 @media (min-width:1300px) {
     .app {
-        margin: 20rem auto;
+        margin: 20rem 20rem;
     }
 }
 @media (max-width:500px) {
