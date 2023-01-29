@@ -38,6 +38,7 @@
 }
 
 .icon_folder, .icon_link, .icon_github {
+    fill: none;
     stroke-width: 0.15rem;
 }
 
@@ -92,3 +93,18 @@
     font-weight: 400;
 }
 
+@keyframes shine {
+    0% {
+        stroke: var(--text-shade-4);
+        transform: scale(1);
+    }
+    
+    80% {
+        stroke: var(--text-shade-4);
+        transform: scale(1);        
+    }
+    100% {
+        stroke: var(--contrast-1);
+        transform: scale(1.1);
+    }
+}

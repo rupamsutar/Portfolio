@@ -12,7 +12,8 @@ shades : lightest :#e6f1ff  #ccd6f6  #a8b2d1  #8892b0
   --dark-blue-2: #1a1a1a;
   --dark-blue-3: #333333;
 
-  --contrast-1: #ff5e00;
+  --contrast-1: #FF1E1E;
+  /* --contrast-1: #00FFAB; */
 
   --text-shade-1: #8892b0;
   --text-shade-2: #a8b2d1;

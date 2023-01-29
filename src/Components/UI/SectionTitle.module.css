@@ -1,5 +1,5 @@
 .sectionTitle {
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
 }
 
 @media (max-width: 1200px) {
@@ -10,12 +10,12 @@
 }
 
 .h1 {
-    color: #e6f1ff;
+    color: var(--text-shade-4);
 }
 
 .h1 span {
     font-weight:400;
-    font-size: 23px;
+    font-size: 2.3rem;
     font-family: Roboto Mono, sans-serif;
-    color: #ff5e00;
+    color: var(--contrast-1);
 }
