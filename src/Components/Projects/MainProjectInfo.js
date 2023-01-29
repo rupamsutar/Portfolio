@@ -27,9 +27,7 @@ const MainProjectInfo = (props) => {
 
         <div style={mainProjectInfoStyle} className={classes.mainProjectInfo}>
             <a href={props.projectLink} target="_blank" rel="noreferrer">
-                <div style={imageStyle}                    
-                     className={classes.image}>
-                </div>       
+                <div style={imageStyle} className={classes.image}></div>       
                 <div style={imageHoverEffect} className={classes["image_hover_effect"]}>
                     <p></p>
                 </div>
