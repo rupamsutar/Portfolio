@@ -32,6 +32,12 @@ html {
   scroll-behavior: smooth;
 }
 
+@media (max-width: 740px) {
+  html {
+    font-size: 50%;
+  }
+}
+
 body {
   background-color: var(--dark-blue-1);
   color: var(--text-shade-4);

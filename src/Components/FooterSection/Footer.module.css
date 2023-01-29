@@ -1,14 +1,20 @@
 .footer {
-    width:750px;
+    width:75rem;
     text-align: center;
-    margin: 50px auto 30px auto;
+    margin: 5rem auto 3rem auto;
 
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 0.5rem;
 }
 
 .footer p {
-    font-size: 12px;
-    letter-spacing: 1.3px;
+    font-size: 1.2rem;
+    letter-spacing: 0.13rem;
+}
+
+@media (max-width: 740px) {
+    .footer {
+        width: 30rem;
+    }
 }
